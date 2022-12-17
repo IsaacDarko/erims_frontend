@@ -84,7 +84,7 @@ const Login = () => {
         password:pass
       }
 
-        axios.post('https://erims-api.onrender.com:5000/api/auth', data)
+        axios.post('https://erims-api.onrender.com/api/auth', data)
         .then((res) => {
 
           const loggedUser = res.data
